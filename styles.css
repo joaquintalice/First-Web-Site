@@ -336,8 +336,8 @@ footer{
 }
 
 .subcontenedor{
-    background: rgb(210, 212, 206);
-    height: 400px;
+    background: rgb(98, 100, 95);
+    height: 00px;
 }
 
 .titulosubcont h2{
@@ -421,8 +421,59 @@ footer{
     bottom: 600px;
 }
 
-@media  (max-width: 1200px){
-    *{
-        flex-wrap: wrap;
-    }
+form{
+    width: 35%;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    left: 600px;
+}
+
+label{
+    font-size: 16px;
+    display: block;
+    width: 100%;
+}
+
+input, textarea{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(12,216,162);
+    border-radius: 5px;
+}
+
+textarea{
+    resize: vertical;
+    max-height: 300px;
+    min-height: 100px;
+}
+
+input[type="submit"]{
+    margin-bottom: 0px;
+    color: rgb(12,216,162);
+    font-size: 25px;
+    border: none;
+    font-weight: 700;
+    text-align: center;
+    font-family: Montserrat;
+    border: 2px solid rgb(12,216,162);
+    background: white;
+}
+
+input[type="submit"]:hover{
+    background: rgb(12,216,162);
+    color: white;
+    cursor: pointer;
+}
+
+h2{
+    margin-bottom: 0px;
+    color: rgb(12,216,162);
+    font-size: 25px;
+    border: none;
+    font-weight: 700;
+    text-align: center;
+    font-family: Montserrat;
 }
