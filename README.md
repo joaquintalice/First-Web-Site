@@ -1,2 +1,2 @@
 # First-Web-Site
-This is my first web site. Here I'll upgrade all daily progress.
+This is my first web site. I want create one site where I can expressed my new learning.
