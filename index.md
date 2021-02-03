@@ -1,37 +1,194 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="ES">
 
-You can use the [editor on GitHub](https://github.com/joaquintalice/First-Web-Site/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Quien es Joaquín Talice">
+    <meta name="keywords" content="Talice, biografía">
+    <title>Talice Joaquin</title>
+    <link rel="shortcut icon" href="imagenes/LogoMakr-76EH0p.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.google.com/specimen/Montserrat#standard-styles" rel="stylesheet" href="text.css">
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body>
 
-### Markdown
+    <header>
+            <div class="header-container">
+                <div class="imagen">
+                   <a href="#"><img src="imagenes/Talice (6).png"></a>
+                </div>
+                <div class="about-me">
+                    <a href="https://dsantiagomj.dev/about/" class="aboutme">About Me</a>
+                </div>
+                <div class="get-in-touch">
+                    <a href="https://dsantiagomj.dev/contact/" class="intouch">Get in Touch</a>
+                </div>
+            </div>
+    </header>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <div class="contenedor">
+        <div class="titulo">
+            <h2> < Hello Word /> </h2>
+        </div>
+        <div class="subtitulo">
+            <p>I'm a Web Developer, passionate about what I do, and always learning something new.</p>
+        </div>
+        <div>
+            <img src="imagenes/Talice (1).png" class="wachin">
+        </div>
+        <div>
+            <img src="imagenes/idoo.png" class="ido">
+        </div>
+    </div>
 
-```markdown
-Syntax highlighted code block
+    <div class="contenedor2">
+        <div class="titulo1">
+            <h2>Hi, I'm Joaquin. Pleasure to meet you.</h2>
+        </div>
+        <div class="subtitulo1">
+            <p>
+                Coming from San Jacinto, Canelones, Uruguay, I started my journey as a developer in <br>
+                2021. I have special interest in front-end and a little back-end, where I have <br>
+                worked most of my projects and potentialized my skills. A fan of learning and <br>
+                interacting with new technologies, these are the skills I have learned and <br>
+                improved during my journey.
+            </p>
+        </div>
+    </div>
 
-# Header 1
-## Header 2
-### Header 3
+    <div class="contenedor-tablas">
+        <div class="tabla1">
+            <div class="imgtabla1">
+                <img src="imagenes/mobile.png">
+            </div>
+            <h2>Mobile Development</h2>
+            <p>I have crossed ways with this path a couple of times. I'm very curious about this path and looking forward to digging into it.</p>
+            <h3>Languages & tools I've learned and used:</h3>
+            <p>JavaScript, React Native, Expo, Cordova</p>
+        </div>
+        <div class="tabla2">
+            <div class="imgtabla2">
+                <img src="imagenes/front.png">
+            </div>
+            <h2>Front-end Development</h2>
+            <p>My main path, I've worked mostly as a frontend developer and I'm loving it. I like to bring ideas to life in the browser.</p>
+            <h3>Languages & tools I've learned and used:</h3>
+            <p>HTML5, CSS3, Sass, BEM, JavaScript, JQuery, ReactJs, Redux, GatsbyJs, Shopify</p>
+        </div>
+        <div class="tabla3">
+            <div class="imgtabla3">
+                <img src="imagenes/backend.png">
+            </div>
+            <h2>Back-end Development</h2>
+            <p>Technologies that I've learned on my journey. Some of them crucial on my day by day, others looking forward to using again.</p>
+            <h3>Languages & tools I've learned and used:</h3>
+            <p>Terminal, Git, Github, Ruby, Ruby on Rails, JavaScript, NodeJs, ExpressJs, Python, Django, MongoDB, PostgreSQL.</p>
+        </div>
+    </div>
 
-- Bulleted
-- List
+    <div class="subcontenedor">
 
-1. Numbered
-2. List
+        <div class="titulosubcont">
+            <h2>Learn more about me</h2>
+        </div>
+        <div class="subcont">
+            <p>Check some of the projects and companies <br> i've been involved with.</p>
+        </div>
+        <div class="subbutton">
+            <a href="https://dsantiagomj.dev/about/" class="subbutton1">Check More</a>
+        </div>
+        <div class="subcont1">
+            <p>Or download a summary of my work.</p>
+        </div>
+        <div class="subbutton3">
+            <a href="https://dsantiagomj.dev/about/" class="subbutton2">Get my Resume</a>
+        </div>
+        <div>
+            <img src="imagenes/wtf.png" class="imgwtf">
+        </div>
+    </div>
 
-**Bold** and _Italic_ and `Code` text
+    <form>
+        <div>
+            <h2 id="formtitle">Get in touch</h2>
+        </p></div>
+            <label for="nombre">Your name:</label>
+            <input type="text" placeholder="Write your name" id="nombre">
+        
+        <label for="email">Your Email</label>
+        <input type="email" placeholder="Write your Email" id="email">
 
-[Link](url) and ![Image](src)
-```
+        <label for="mensaje">Your Message</label>
+        <textarea placeholder="Write your message" id="mensaje"></textarea>
+        
+        <input type="submit" value="Submit">
+    </form>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+    <footer>
+    <div class="container-all-footer"> 
+        <div class="container-body">
+            <div class="columna1">
+                <h1>Más información de la compañía.</h1>
+                <p>Somos una empresa destinada a la exportación de carne vacuna de la mejor calidad. Contamos con excelente calidad, stock y reconocimientos por nuestro trabajo</p>
+            </div>
+            <div class="columna2">
+                <h1>Redes Sociales</h1>
+                <div class="row">
+                    <img src="/Proyecto de prueba/imagenes/fb.png">
+                    <label>Siguenos en Facebook</label>
+                </div>
+                <div class="row">
+                    <img src="imagenes/yt.png">
+                    <label>Siguenos en Youtube</label>
+                </div>
+                <div class="row">
+                    <img src="imagenes/ig.png">
+                    <label>Siguenos en Instagram</label>
+                </div>
+                <div class="row">
+                    <img src="imagenes/twitter.png">
+                    <label><a href="#" class="footerlink">Siguenos en Twitter</a></label>
+                </div>
+                <div class="row">
+                    <img src="imagenes/pintrest.png">
+                    <label>Siguenos en Pintrest</label>
+                </div>
+            </div>
+            <div class="columna3">
+                <h1>Información de Contacto</h1>
+                <div class="row2">
+                    <img src="imagenes/casa.png">
+                    <label>San Jacinto, Canelones, Uruguay</label>
+                </div>
+                <div class="row2">
+                    <img src="imagenes/celular.png">
+                    <label>(+598)098646167</label>
+                </div>
+                <div class="row2">
+                    <img src="imagenes/correo.png">
+                    <label>joaquintalice@gmail.com</label>
+                </div>
+            
+            </div>
+        </div>
 
-### Jekyll Themes
+    </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/joaquintalice/First-Web-Site/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+    
+    <div class="container-footer">
+        <div class="footer">
+            <div class="copyright">
+                Todos los derechos de autor reservados.
+            </div>
+            <div class="footerinfo"><a href="#">Informacion Compañía</a> | <a href="#">Privación y Política</a> | <a href="#">Terminos y Condiciones</a>.</div>
+        </div>
+    </div>
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+    </footer>
+    <script src="js/intro.js"></script>
+</body>
+</html>
